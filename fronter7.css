@@ -1,0 +1,142 @@
+ * { box-sizing: border-box;
+
+    }
+    .responsive {
+        width: 100%;
+        height: auto;
+    
+    }
+    body {
+        margin: 0 auto;
+        max-width: 1100px;
+       
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+
+.wrapper {
+  
+  
+  
+}
+
+.wrapper > div {
+  
+ 
+ 
+  padding: 1em;
+      
+
+}
+    * { box-sizing: border-box;
+
+    }
+    .responsive {
+        width: 100%;
+        height: auto;
+    
+    }
+    body {
+        margin: 0 auto;
+        max-width: 1100px;
+       
+        font-family: Helvetica Neue LT Std., sans-serif;
+    }
+
+
+        
+.color { background-color: lightgrey;
+    
+}
+.text {
+    margin-top: 50px;
+}
+
+p {
+        color: #0762c8;
+        
+   
+    }
+
+h2 {
+    color: #ea5045;
+}
+    
+ @media only screen and (min-width: 600px) {
+ .wrapper {
+  display: grid;
+  grid-template-columns: 350px 800px;
+}
+
+        .button {
+            padding:25px;
+            text-align: center;
+            font-family: Helvetica Neue LT Std;
+          
+            font-size: 35px;
+            position: relative;
+            color: white;
+            background-color:#0762c8 ;
+        }
+  .button1 {
+            padding:25px;
+            text-align: center;
+            font-family: Helvetica Neue LT Std;
+          
+            font-size: 35px;
+            position: relative;
+            color: white;
+            background-color:#ffb4aa ;
+        }
+ 
+     p {
+    font-size: 30px;
+  } 
+    body {
+            padding: 20px;
+              
+}
+    
+    
+}
+@media only screen and (max-width: 600px) {
+ .wrapper {
+  display: grid;
+  grid-template-columns: 150px 240px;
+}
+ 
+     p {
+    font-size: 20px;
+  } 
+    body {
+            padding: 15px;
+              
+}
+  
+.button1 {
+            padding:15px;
+            text-align: center;
+            font-family: Helvetica Neue LT Std;
+          
+            font-size: 20px;
+            position: relative;
+            color: white;
+            background-color: #0762c8;
+        }
+
+        
+ .button {
+            padding:15px;
+            text-align: center;
+            font-family: Helvetica Neue LT Std;
+          
+            font-size: 20px;
+            position: relative;
+            color: white;
+            background-color:#ffb4aa ;
+        }}
+
+
+

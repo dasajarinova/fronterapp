@@ -1,0 +1,84 @@
+
+
+/*styling chat windows*/
+body {
+  margin: 0 auto;
+  max-width: 880px;
+  padding: 0 20px;
+}
+
+.container {
+  
+  background-color: #59cbe8;
+
+
+  padding: 10px;
+  margin: 10px 0;
+    color:white;
+}
+
+.darker {
+  border: none;
+  background-color: #ea5045;
+    color: white;
+  
+}
+.darker1 {
+  border: none;
+  background-color: #59cbe8;
+    color: white;
+  }
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 85px;
+ 
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: white;
+}
+
+.time-left {
+  float: left;
+  color: white;}
+.button {
+    
+    text-align: center;
+    padding: 10px;
+    background-color: #59cbe8;
+    color:white;
+    border: none;
+    width: 
+}
+
+header
+{
+    background-color:#ea5045;
+}
+    h1 {color: white}
+
+  .but {
+                float: right;
+                padding: 10px;
+                background-color: #ea5045;
+                color: white;
+                border: none;
+               
+            }
+

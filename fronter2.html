@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+  <link rel="stylesheet" href="fronter2.css">
+<body>
+
+   
+
+    <form>
+        <div>
+        <center><img src="kea-logo.png" alt="logo kea" height="200px"></center>
+        
+<div class="bounce"> 
+    CHAT
+</div>
+            <label for="uname"><b>
+                    <p>Username</p>
+                </b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>
+                    <p>Password</p>
+                </b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+           
+            <button onclick="btn1()" type="submit" class="send">SEND</button>
+            <script>
+                function btn1 () {
+                    window.location="message.html"
+                }
+            </script>
+                <div class="container">
+                    <label>
+                <input class ="input" type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+
+                    <span class="psw"><a>Forgot password?</a></span></div>
+
+        </div>
+    </form>
+
+</body>
+</html>

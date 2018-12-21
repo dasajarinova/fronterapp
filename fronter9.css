@@ -1,0 +1,102 @@
+
+
+.wrapper > div {
+
+
+
+    padding: 1em;
+
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+
+}
+
+body {
+    margin: 0 auto;
+    max-width: 880px;
+
+   } 
+
+.text1 {
+    background-color: white;
+    color:#59cbe8 ;
+}
+
+.color {
+    background-color: #ea5045;
+    color: white;
+
+}
+header {
+    background-color: #0762c8;
+    color: white;
+}
+  .bounce1 {
+        padding: 20px;
+        text-align: center;
+        font-family: Helvetica Neue LT Std;
+
+        font-size: 25px;
+        position: relative;
+        color: white;
+        background-color: #ea5045 ;
+        
+            -webkit-animation: bounce 0.75s infinite;
+        }
+      
+      
+
+     
+
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 250px 650px;
+    }
+
+  
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    body {
+        padding: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 100px 240px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    body {
+        padding: 5px;
+
+    } }
+
+
+  
